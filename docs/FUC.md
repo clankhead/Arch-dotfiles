@@ -1,4 +1,4 @@
-## FUC - Frequently Used Commands
+## Frequently Used Commands (FUC)
 
 ### Network Manager
 `sudo systemctl restart NetworkManager`
