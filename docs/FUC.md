@@ -3,6 +3,12 @@
 ### Network Manager
 `sudo systemctl restart NetworkManager`
 
+in `sudo nano /etc/NetworkManager/conf.d/wifi-backend.conf`-> add `iwd` as wifi auth daemon (instead of `wpa_supplicant`)
+```
+[device]
+wifi.backend=iwd
+```
+
 ### Arch Maintainance
 https://fernandocejas.com/blog/engineering/2022-03-30-arch-linux-system-maintance/
 
