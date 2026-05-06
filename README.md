@@ -13,23 +13,23 @@ This repository contains my personal dotfiles and configuration for an Arch Linu
 
 These dotfiles cover configuration for the following tools and components:
 
-- **Window Manager**: i3
-- **Terminal Emulator**: kitty  
-- **Shell**: fish
-- **Prompt**: starship
-- **Screenshot Tool**: flameshot
-- **Application Launcher**: rofi
-- **Panel/Bar**: polybar
-- **Compositor**: picom
-- **Wallpaper Setter**: nitrogen
-- **Volume Control**: pulse / pulsemixer
-- **File Manager**: Thunar
-- **Settings Backend**: dconf
-- **Desktop Environment Components**: xfce4 (optional usage)
-- **Notes**: zim
-- **Network Manager**: NetworkManager
-- **Bluetooth Manager**: blueman-manager
-- 
+- **Window Manager**: `i3`
+- **Terminal Emulator**: `kitty`  
+- **Shell**: `bash` / `fish`
+- **Prompt**: `starship`
+- **Screenshot Tool**: `flameshot`
+- **Application Launcher**: `rofi`
+- **Panel/Bar**: `polybar`
+- **Compositor**: `picom`
+- **Wallpaper Setter**: `feh` / `nitrogen`
+- **Volume Control**: `pulse` / `pulsemixer`
+- **File Manager**: `Thunar`
+- **Settings Backend**: `dconf`
+- **Desktop Environment Components**: `xfce4` (optional usage)
+- **Notes**: `Obsidian`
+- **Network Manager**: `NetworkManager`
+- **Bluetooth Manager**: `blueman-manager`
+- **Wifi Backend**: `iwd` (instead of `wpa_supplicant`)
 
 ---
 
