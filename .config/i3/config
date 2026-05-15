@@ -19,7 +19,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Set wallpaper with feh
-exec_always --no-startup-id sh -c "sleep 1 && feh --bg-fill /home/D3adP0et/Media/Pictures/wallpapers/plaindemon.jpg"
+exec_always --no-startup-id sh -c "sleep 1 && feh --bg-fill /home/D3adP0et/Media/Pictures/wallpapers/blue-screen-of-fun.png"
 
 # Enable thunar daemon
 exec --no-startup-id thunar --daemon 
@@ -35,6 +35,9 @@ exec --no-startup-id dunst
 
 # Disable screen turning off
 exec_always --no-startup-id xset s 0 0
+
+# Ext display on left
+# xrandr --output HDMI-1-0 --right-of eDP-1
 
 # Use pactl to adjust volume in PulseAudio
 set $refresh_i3status killall -SIGUSR1 i3status
